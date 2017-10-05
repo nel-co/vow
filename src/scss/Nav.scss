@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  .Nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .Nav-links a {
+    font-size: 13px;
+    margin-left: 15px;
+  }
+}
+
+nav img {
+  width: 90px; height: auto;
+  margin-right: 10px;
+}
