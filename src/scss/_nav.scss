@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .Nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bolder;
+    span {
+      padding-top: 12px;      
+    }
+  }
+  .Nav-links a {
+    font-size: 13px;
+    margin-left: 20px;
+    color: $grey;
+    text-decoration: none;
+    &:hover {
+      color: $black;
+    }
+  }
+  .Nav-btn {
+    @include orangeGradient;
+    border-radius: 9px;
+    color: white !important;
+    padding: 10px 15px;
+  }
+}
+
+nav img {
+  width: 90px; height: auto;
+  margin-right: 10px;
+}

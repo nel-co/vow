@@ -1,0 +1,52 @@
+.hero-wrapper {
+  @include trueCenter;
+  background: url('../img/hero-shapes.jpg');
+  background-size: cover;
+  background-position: center;
+  max-height: 700px;
+  min-height: 600px;
+  text-align: center;
+  .hero-info {
+    width: 70%;
+    h1 {
+      color: $black;
+      font-size: 36px;
+      padding-bottom: 10px;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      .primary-btn {
+        margin-right: 10px;
+      }
+    }
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  .hero-wrapper {
+    min-height: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    .hero-info {
+      text-align: center;
+      .btn-row {
+        justify-content: center;
+      }
+    }
+    .hero-img {
+      display: none;
+    }
+  }
+
+}

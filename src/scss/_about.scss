@@ -1,0 +1,9 @@
+.about {
+  @include trueCenter;
+  @include sectionPadding;
+  @include borders;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background: #F6F6F6;
+}
