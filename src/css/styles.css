@@ -244,4 +244,13 @@ nav img {
           width: 60%; } }
 
 .designSection {
-  background: #27293E url("../img/dot-pattern.png"); }
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #27293E url("../img/dot-pattern.png");
+  color: white;
+  text-align: center; }
+  .designSection p {
+    color: white; }
+  .designSection .btn-row {
+    margin-top: 35px;
+    margin-bottom: 25px; }
