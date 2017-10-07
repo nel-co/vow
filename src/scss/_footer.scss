@@ -1,0 +1,15 @@
+footer {
+  @include trueCenter;
+  padding-top: 60px; padding-bottom: 60px;
+  text-align: center;
+  p {
+    color: $grey;    
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 auto;
+    span {
+      color: $black;
+      cursor: pointer;
+    }
+  }
+}

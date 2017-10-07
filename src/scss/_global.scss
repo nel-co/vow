@@ -42,8 +42,8 @@ h3 {
 }
 
 .btn {
-  border-radius: 9px;
-  padding: 15px 30px 15px 30px;
+  border-radius: 12px;
+  padding: 15px 50px 15px 50px;
 }
 
 .primary-btn {
@@ -86,5 +86,15 @@ h3 {
   .page-wrapper {
     width: 90%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+   width: 100%;
+   .page-wrapper {
+     width: 80%;
+     margin: 0 auto;
+   }
   }
 }

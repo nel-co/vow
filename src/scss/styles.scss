@@ -2,33 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
 @import 'reset';
 
-// Variables
-$black: #373737;
-$grey: #8D8D8D;
-$light-orange: #FF8000;
-$dark-orange: #F16E0A;
-$dark-blue: #27293E;
-
-// Mixins
-@mixin orangeGradient {
-  background: linear-gradient(45deg, $dark-orange, $light-orange);
-}
-@mixin trueCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@mixin sectionPadding {
-  padding-bottom: 80px; padding-top: 80px;
-}
-@mixin borders {
-  border-top: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-}
-
+@import 'vars-mixins';
 @import 'global';
 @import 'nav';
 @import 'hero';
 @import 'about';
 @import 'talk';
 @import 'designSection';
+@import 'solutions';
+@import 'support';
+@import 'footer';

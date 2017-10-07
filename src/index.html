@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <div class="page-wrapper">
+    <div class="page-wrapper nav">
       <nav>
         <div class="Nav-logo">
           <img src="./img/VOW.svg" alt="logo"> <span>VOW</span>
@@ -25,12 +25,27 @@
           <a href="#">FAQ</a>
           <a href="#" class="Nav-btn">Contact Us</a>
         </div>
+        <div class="mobile-nav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
+    </div>
+
+    <div class="mobile-nav-wrapper">
+      <a href="#">Home</a>
+      <a href="#">IVR Solutions</a>
+      <a href="#">Web & Mobile</a>
+      <a href="#">Branding</a>
+      <a href="#">Support</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
     </div>
 
     <section class="hero-wrapper">
       <div class="hero-info">
-        <h1 class="hero-headline">Communicate. Easier.</h1>
+        <h1 class="hero-headline">Communicate. <span id="hero-word"></span></h1>
         <p class="p-text">TalkRx is the only all-in-one communication system for Pharmacies. With integrated applications like an IVR and
           fax gateway, pharmacy productivity and efficiency will increase.
         </p>
@@ -134,7 +149,81 @@
       </div>
     </section>
 
+    <section class="solutions">
+      <div class="page-wrapper">
+        <h1>All-In-One Solution including Branding, Print, and Logo Design</h1>
+        <div class="icon-wrapper">
+
+          <div class="feature-wrapper">
+            <div class="icon">
+              <img src="./img/logo.png" alt="">
+            </div>
+            <div class="feature-info">
+              <h3>Logo Design</h3>
+              <p class="p-text">A logo is often the first interaction a customer has with a brand. We help develop strategic, thoughtful logo designs
+                that makes brands stand out.</p>
+              <div class="text-btn">
+                <a href="#">See our work.</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-wrapper">
+            <div class="icon">
+              <img src="./img/print.png" alt="">
+            </div>
+            <div class="feature-info">
+              <h3>Printing & Advertising</h3>
+              <p class="p-text">To grow a business, brands need to reach customers through multiple outlets, and we have the experience in designing
+                for print, outdoor signage, banners, flyers, business cards, and much more.</p>
+              <div class="text-btn">
+                <a href="#">See our work.</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-wrapper">
+            <div class="icon">
+              <img src="./img/print.png" alt="">
+            </div>
+            <div class="feature-info">
+              <h3>Graphic Design</h3>
+              <p class="p-text">Let’s collaborate to take your vision from concept to a variety of different mediums from print and digital to
+                packaging design.</p>
+              <div class="text-btn">
+                <a href="#">See our work.</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="support">
+      <div class="page-wrapper support-wrapper">
+        <div class="support-info">
+          <h1>Support you deserve...</h1>
+          <p class="p-text">For Remote Support Click on the button and follow the prompts. 
+            When prompted enter your name and the name of your location in the description box.</p>
+        </div>
+        <div class="support-btn">
+          <a class="btn primary-btn" href="#">Get Support</a>            
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="page-wrapper">
+        <p>Copyright © VOW, Inc. 2017. 109 Builders Court Boiling Springs, SC 29316. <br>
+          Send us a note to <span>support@vowinc.com</span> or give us a call at <span>(864) 541-0650</span></p>
+      </div>
+    </footer>
+
   </div>
+
+  <script src="./js/typed.js"></script>
+  <script src="./js/main.js"></script>
 
 </body>
 

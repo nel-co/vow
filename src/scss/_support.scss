@@ -1,0 +1,25 @@
+.support {
+  @include sectionPadding;
+  @include borders;
+  background: #F6F6F6;
+  .support-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
+    .support-btn {
+      @include trueCenter;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .support {
+    .support-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
+      text-align: center;
+    }
+  }
+}
